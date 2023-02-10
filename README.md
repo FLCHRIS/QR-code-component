@@ -15,7 +15,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./screenshot.png)
 
 ### Links
 
@@ -30,7 +30,10 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - CSS custom properties
 - Flexbox
 - Mobile-first workflow
+- BEM
+- SCSS/SASS
+- VANTA
 
 ## Author
 
-- Frontend Mentor - [CHRISTIAN](https://www.frontendmentor.io/profile/flchris)
+- Frontend Mentor - [Christian](https://www.frontendmentor.io/profile/flchris)

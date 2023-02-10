@@ -1,72 +1,50 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
-:root{
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+html {
+  font-size: 62.5%;
+}
 
-    /* ## Colors */
-    --White: hsl(0, 0%, 100%);
-    --LightGray: hsl(212, 45%, 89%);
-    --GrayishBlue: hsl(220, 15%, 55%);
-    --DarkBlue: hsl(218, 44%, 22%);
+.main {
+  min-height: 100vh;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Outfit;
 }
-*{
-    margin: 0;
-    box-sizing: border-box;
+.main .card {
+  width: 90%;
+  max-width: 375px;
+  background-color: hsl(0deg, 0%, 100%);
+  border-radius: 0.8em;
+  padding: 1.5em;
+  box-shadow: 0px 0px 10px 0px rgba(31, 50, 81, 0.1);
 }
-body{
-    font-size: 15px;
-    font-family: Outfit;
+.main .card .card__img {
+  border-radius: 0.8em;
 }
-.attribution{
-    position: fixed;
-    bottom: 10px;
-    font-size: .7em;
-    text-align: center;
-    color: var(--GrayishBlue);
+.main .card .card__title {
+  text-align: center;
+  font-size: 2.5rem;
+  line-height: 1.3;
+  color: hsl(218deg, 44%, 22%);
+  margin-top: 1em;
 }
-.attribution a{
-    display: inline-block;
-    color: var(--DarkBlue);
+.main .card .card__paragraph {
+  margin: 1em 0;
+  text-align: center;
+  font-size: 1.6rem;
+  color: hsl(220deg, 15%, 55%);
 }
-.hero{
-    min-height: 100vh;
-    background-color: var(--LightGray);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+.footer {
+  position: fixed;
+  bottom: 1em;
+  right: 1em;
+  font-size: 1.3rem;
+  font-family: Outfit;
+  color: hsl(212deg, 45%, 89%);
 }
-.hero-card{
-    overflow: hidden;
-    width: 300px;
-    background-color: var(--White);
-    border-radius: 1rem;
-}
-.card-img{
-    width: 90%;
-    display: block;
-    margin: 1rem auto;
-    border-radius: inherit;
-}
-.card-title{
-    text-align: center;
-    color: var(--DarkBlue);
-    font-size: 1.3em;
-    margin: 1rem .9rem;
-}
-.card-paragraph{
-    text-align: center;
-    color: var(--GrayishBlue);
-    margin: 1rem .9rem 3rem;
-    font-size: 1em;
-}
-.attribution{
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    font-size: .8em;
-    text-align: center;
-    color: var(--GrayishBlue);
-}
-.attribution a{
-    margin-top: .3rem;
-    display: inline-block;
-    color: var(--DarkBlue);
-}
+.footer a {
+  color: hsl(0deg, 0%, 100%);
+  text-decoration: none;
+}/*# sourceMappingURL=index.css.map */

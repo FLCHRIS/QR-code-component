@@ -3,24 +3,39 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/reset.css">
   <link rel="stylesheet" href="./css/index.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <title>Frontend Mentor | QR code component</title>
 </head>
 <body>
-  <main class="hero">
-    <div class="hero-card">
-      <img src="./images/image-qr-code.png" alt="qr code" class="card-img">
-      <h1 class="card-title">
-        Improve your front-end skills by building projects
+  <main class="main" id="main">
+    <section class="main__card card">
+      <img src="./images/image-qr-code.png" alt="qr code" class="card__img">
+      <h1 class="card__title">
+        Improve your front-end skills by building projects.
       </h1>
-      <p class="card-paragraph">
-        Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
+      <p class="card__paragraph">
+        Scan the QR code to visit Frontend Mentor and taje your coding skills to the next level.
       </p>
-    </div>
+    </section>
   </main>
-  <footer class="attribution">
-    Coded by <a href="https://github.com/flchris">CHRIS FL</a>.
+  <footer class="footer">
+    Coded by <a href="https://github.com/flchris" target="_blank">CHRIS FL</a>.
   </footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.waves.min.js"></script>
+  <script>
+    VANTA.WAVES({
+      el: "#main",
+      mouseControls: true,
+      touchControls: true,
+      gyroControls: false,
+      minHeight: 200.00,
+      minWidth: 200.00,
+      scale: 1.00,
+      scaleMobile: 1.00
+    })
+  </script>
 </body>
 </html>
