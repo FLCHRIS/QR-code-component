@@ -19,8 +19,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [Solution URL]()
-- Live Site URL: [Live site URL]()
+- [Solution URL: ](https://www.frontendmentor.io/solutions/qr-code-component-CF277v7rrW)
+- [Live site URL: ](https://teal-fairy-eff003.netlify.app/)
 
 ## My process
 
